@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Boostrap Collapse(折叠)</title>
+
+  <!-- Bootstrap -->
+  <link href="./lib/css/bootstrap.min.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- 
+    如果元素有href属性 那么在折叠组件中 href属性的值 是折叠起来内容的id
+    如果元素没有hrefu属性 那么使用data-target来代替
+
+   -->
+
+ <!-- <a href="#shi" data-toggle="collapse" >点击切换展开</a> -->
+ <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#shi"  >点击打开</button>
+ <p class="collapse" id="shi">
+   轻轻的我走了,正如我轻轻的来
+   我挥一挥衣袖,不带走一片云彩
+   那河畔的金柳,是夕阳中的新娘
+   波光里的艳影,在我的心头荡漾
+ </p>
+
+  <script src="./js/jQuery.min.js"></script>
+  <script src="./lib/js/bootstrap.min.js"></script>
+</body>
+
+</html>
